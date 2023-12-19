@@ -5,13 +5,18 @@ body{
 }
 
 header{
+    height: 1000px;
     text-align: center;
     background-color: aquamarine;
+    background-image: url(/imgs/bg-3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top right;
 }
 
 nav{
 
-    background-color: aqua;
+
 }
 
 nav ul{
@@ -77,6 +82,11 @@ section a{
 }
 
 footer{
+    padding: 20px;
     background-color: rgb(198, 107, 107);
     text-align: center;
+}
+
+footer p{
+    margin: 0;
 }
