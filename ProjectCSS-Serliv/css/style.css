@@ -4,19 +4,24 @@ body{
     margin: 0;
 }
 
-header{
-    height: 1000px;
+.main-header{
+    height: 500px;
     text-align: center;
     background-color: aquamarine;
     background-image: url(/imgs/bg-3.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top right;
+    display: flex; /* Adiciona display flex para alinhar os filhos verticalmente */
+    justify-content: center; /* Adiciona justify-content para alinhar os filhos horizontalmente */
 }
 
 nav{
-
-
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    display: flex;
 }
 
 nav ul{
@@ -39,15 +44,23 @@ nav ul li{
     display: inline-block;
 }
 
-header h1{
+.main-header .title{
+    text-align: center;
+    background-color: #643f3f;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-header h1{
     background-color: #8ddae2;
 }
 
-header p{
+.main-header p{
     background-color: beige;
 }
 
 main{
+    margin-top: 0.5%;
     background-color: antiquewhite;
     margin-left: 18%;
     margin-right: 18%;
