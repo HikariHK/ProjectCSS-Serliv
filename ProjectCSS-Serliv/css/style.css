@@ -1,15 +1,15 @@
 body{
-    background-color: #9f9f9f;
+    background-color: #ccc;
     font-family: sans-serif;
     margin: 0;
 }
 
 .main-header{
     width: 100%;
-    height: 600px;
+    height: 500px;
     text-align: center;
     background-color: aquamarine;
-    background-image: url(/imgs/bg-3.jpg);
+    background-image: url(../imgs/bg-3.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: right center;
@@ -71,28 +71,28 @@ main{
     margin-right: 18%;
 }
 
-section{
+article{
     margin-bottom: 40px;
     background-color: azure;
 }
 
-section .conteudo{
+article .conteudo{
     display: inline-block;
     margin: 20px;
 }
 
-section h2{
+article header h2{
     padding: 8px;
     margin: 0;
     background-color: rgb(111, 166, 202);
 }
 
-section p{
+article p{
     margin-bottom: 25px;
     background-color: rgb(197, 116, 125);
 }
 
-section a{
+article a{
     color: blue;
     border-radius: 5px;
     padding: 10px;
