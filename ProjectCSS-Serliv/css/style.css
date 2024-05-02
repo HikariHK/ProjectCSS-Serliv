@@ -56,6 +56,7 @@ nav ul li a{
     text-transform: uppercase;
     font-size: 12px;
     letter-spacing: 2px;
+    transition: 300ms ease-in-out;
 }
 
 nav ul li a:hover{
@@ -87,38 +88,33 @@ nav ul li a:hover{
 }
 
 main{
-    margin-top: 0.5%;
-    background-color: antiquewhite;
-    margin-left: 18%;
-    margin-right: 18%;
+    margin: 15px auto;
+    width: 75%;
+    max-width: 980px;
 }
 
 article{
+    padding: 16px;
     margin-bottom: 40px;
     background-color: azure;
 }
 
-article .conteudo{
-    display: inline-block;
-    margin: 20px;
-}
 
 article header h2{
     padding: 8px;
     margin: 0;
-    background-color: rgb(111, 166, 202);
+    border-bottom: 2px solid #ccc;
+    background-color: #eee;
 }
 
-article p{
-    margin-bottom: 25px;
-    background-color: rgb(197, 116, 125);
-}
 
 article a{
+    display: inline-block;
+    margin: 0;
     color: blue;
     border-radius: 5px;
-    padding: 10px;
-    background-color: rgb(132, 187, 118);
+    padding: 12px;
+    background-color: #cdc7c3;
 }
 
 footer{
