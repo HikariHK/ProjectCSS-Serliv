@@ -108,21 +108,33 @@ article header h2{
 }
 
 
-article a{
+article .article-link{
     display: inline-block;
-    margin: 0;
     color: blue;
     border-radius: 5px;
     padding: 12px;
     background-color: #cdc7c3;
 }
 
-footer{
+/*
+
+- If you want to put the link on the left
+
+article .article-link{
+    margin-left: auto;
+    display: block;
+    color: blue;
+    border-radius: 5px;
+    padding: 12px;
+    background-color: #cdc7c3;
+    width: fit-content;
+}
+*/
+.rodape{
+    color: white;
     padding: 20px;
-    background-color: rgb(198, 107, 107);
+    background-color: #6b6c68;
     text-align: center;
+    text-shadow: 2px 2px 2px black;
 }
 
-footer p{
-    margin: 0;
-}
